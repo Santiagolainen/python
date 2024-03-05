@@ -1,4 +1,8 @@
-print("Hola putos")
+x = "awesome"
 
-for i in range (1, 101):
-    print (i)
+def myFunc():
+    x = "fantastic"
+    print("python is " + x)
+
+myFunc()
+print("pythos is " + x)
