@@ -1,8 +1,5 @@
-x = "awesome"
+thisSet = {"apple", "banana", "cherry"}
 
-def myFunc():
-    x = "fantastic"
-    print("python is " + x)
 
-myFunc()
-print("pythos is " + x)
+for x in thisSet:
+    print(x)
